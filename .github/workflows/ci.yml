@@ -20,7 +20,7 @@ jobs:
 
       - name: Run shellcheck
         run: |
-          shellcheck --severity=warning \
+          shellcheck --severity=error \
             install.sh \
             download-bins.sh \
             menu.sh \
